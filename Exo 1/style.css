@@ -7,12 +7,10 @@
 .quiz{
 	width: 500px;
 	border:2px solid black;
-    background-repeat  : no-repeat;
-    background-position: center;
-	background-color: white;
+    	background-color: white;
 	opacity: 0.8;
 	margin-top:50px;
-	margin-left:20px;
+	margin-left:60%px;
 	padding-left:30px;
 	padding-bottom:20px;
 	
