@@ -1,0 +1,11 @@
+h1, h2{
+	text-align: center;
+	}
+	
+body{
+	background-image: url(shattered.png);
+	}
+	
+ng-scope{
+background-image: url(creampaper.png);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+  
+    <meta charset="utf-8">
+    <title>Tenue de compte</title>    
+	<link type="text/css" rel="stylesheet" href="style.css">
+  
+  </head>
+ 
+  <body>
+  
+		<h1><strong>Gérer ses dépenses</strong></h1>
+			
+			</br>
+			</br>		
+			
+		<h2><em>"Marre de ne pas savoir combien vous dépensez chaque jours? </em><h2>
+		<h2><em>Inutile de chercher loin, il vous suffit d'entrer chaques dépenses </em><h2>
+		<h2><em>ici et laisser faire la magie du calcul numérique ! "</em><h2>
+			
+			</br>
+			</br>
+		
+		
+			<div ng-app="app"><center>
+				<div ng-controller="appCtrl">
+					<input ng-model="valeur" placeholder="saisissez votre dépense" />
+					
+					</br>
+					
+					<button ng-click="addDepense()">Ajouter la dépense</button>
+					<ul id="somme">
+						<li ng-repeat="depense in depenses">
+								{{ depense.valeur }} <span ng-click="rmDepense($index)">[x]</span>
+						</li>
+					</ul>
+					
+						</br>
+					
+					<div id="depense"><strong>Total des dépenses : {{ total }} €</strong></div>
+				</div>
+			</div>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script> 
+		<script type="text/javascript" src="script.js"></script>
+		<script src="//htmlpreview.github.io/htmlpreview.min.js"></script><script>HTMLPreview.replaceAssets();</script>
+	</body>
+</html>

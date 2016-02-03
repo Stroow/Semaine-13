@@ -1,0 +1,67 @@
+.domaine{
+	text-align:center;
+	color:red;
+	font-size:40px;
+
+}
+.quiz{
+	width: 500px;
+	border:2px solid black;
+    background-repeat  : no-repeat;
+    background-position: center;
+	background-color: white;
+	opacity: 0.8;
+	margin-top:50px;
+	margin-left:20px;
+	padding-left:30px;
+	padding-bottom:20px;
+	
+}
+
+#boutonV{
+	color: yellow;
+    margin-left:5px;
+    margin-top:10px;
+    width:100px;
+}
+
+h1{
+    margin-left:5px;
+}
+
+ul{
+	text-align: left;
+}
+
+.resultat{
+	width: 500px;
+	margin: 50px;
+}
+
+#score{
+	border: black solid;
+	background-color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+	margin-bottom: 10%;
+    border-width: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+.solution{
+	width: 500px;
+	margin: 50px;
+	
+	
+}
+@font-face{
+    font-family: 'SHOWG';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+     }
+	
+
